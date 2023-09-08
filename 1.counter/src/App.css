@@ -1,0 +1,13 @@
+.buttons,
+.countDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  height: 10rem;
+  width: 60vw;
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(231, 231, 154);
+  font-size: 2rem;
+}

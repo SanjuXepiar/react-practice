@@ -1,0 +1,10 @@
+.App {
+  margin: 0 auto;
+  width: 80vw;
+  height: 50vh;
+  /* background: red; */
+  text-align: center;
+}
+p {
+  height: 10vh;
+}
