@@ -6,10 +6,25 @@ import { useState } from "react";
 
 function App() {
   const [cart, setCart] = useState([]);
-  const handleAddCart = (item) =>
-    setCart((prev) => {
-      return [...prev, item];
-    });
+  const handleAddCart = (item) => {
+    const itemExist = cart.some((product) => product.id === item.id);
+    if (itemExist) {
+      const updatedCard = cart.map((prod) => {
+        if (prod.id === item.id) {
+          return {
+            ...prod,
+            quantity: prod.quantity + 1,
+          };
+        }
+        return prod;
+      });
+      setCart(updatedCard);
+    } else {
+      setCart((prev) => {
+        return [...prev, { ...item, quantity: 1 }];
+      });
+    }
+  };
   return (
     <div className="App">
       <section className="list">

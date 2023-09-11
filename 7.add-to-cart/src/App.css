@@ -19,3 +19,7 @@
   height: 5px;
   background: red;
 }
+.cartList {
+  width: 50vw;
+  margin: 0 auto;
+}
