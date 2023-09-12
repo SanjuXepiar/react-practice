@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.input {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.underline {
+  margin: 1rem;
+  height: 0.2rem;
+  width: 100vw;
+  background: red;
+}
