@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+main {
+  min-height: 100vh;
+}
+button {
+  padding: 0.3rem;
+  width: 4rem;
+  margin-left: 90vw;
+  border: 0.2rem solid blue;
+  border-radius: 2rem;
+}
+.dayLight {
+  background: aliceblue;
+  color: black;
+}
+.nightLight {
+  background: black;
+  color: aliceblue;
+}
