@@ -1,0 +1,19 @@
+body {
+  background: rgba(122, 122, 225, 0.614);
+}
+.App {
+  width: 80vw;
+  text-align: center;
+  background: rgba(76, 76, 107, 0.614);
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.underLine {
+  margin: 0 auto;
+  height: 0.3rem;
+  width: 70vw;
+  background: blue;
+}
+span {
+  margin-left: 1rem;
+}
